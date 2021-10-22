@@ -1,0 +1,6 @@
+# Ignore artifacts:
+build
+coverage
+e2e
+node_modules
+.scannerwork
