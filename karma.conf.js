@@ -30,7 +30,11 @@ module.exports = function (config) {
         './coverage/angular-sonarqube-integration-test'
       ),
       subdir: '.',
-      reporters: [{ type: 'html' }, { type: 'text-summary' }],
+      reporters: [
+        { type: 'html' },
+        { type: 'text-summary' },
+        { type: 'lcovonly' },
+      ],
     },
     reporters: ['progress', 'kjhtml'],
     port: 9876,

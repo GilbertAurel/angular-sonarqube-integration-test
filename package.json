@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
+    "sonar": "sonar-scanner",
     "prettier:check": "prettier --config .prettierrc --check \"src/**/*.{ts,scss,html}\""
   },
   "husky": {
