@@ -13,7 +13,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged && ng test --watch=false --browsers=ChromeHeadless"
+      "pre-commit": "pretty-quick --staged && ng test --code-coverage --watch=false --browsers=ChromeHeadless"
     }
   },
   "private": true,

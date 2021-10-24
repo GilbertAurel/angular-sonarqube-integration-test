@@ -54,4 +54,4 @@ sonar.login=your-project-token
 
 ## Husky config
 
-Utilizing husky, this project encourages developer to only commit a clean code. It means the code has to be tested. The code should pass lint and karma test first before it can be commited.
+Utilizing husky, this project encourages developer to only commit a clean code. It means the code has to be tested. The code should pass lint and karma test first (also generating code coverage files) before it can be commited.
