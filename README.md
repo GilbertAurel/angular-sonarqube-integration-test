@@ -13,7 +13,11 @@ This is a mock boilerplate for Angular and SonarQube integration.
 
 ### Generator
 
-Please use Angular CLI [generator scripts](https://angular.io/cli/generate) for generating all boilerplates.
+Please use Angular CLI [generator scripts](https://angular.io/cli/generate) for generating all boilerplates. For generating component inside a module, please use --module script followed by module name, example:
+
+```bash
+ng generate component core/components/component-name --module core
+```
 
 ### Run development server
 
