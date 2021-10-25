@@ -48,8 +48,10 @@ sonar.host.url=http://localhost:9000
 sonar.projectKey=angular-sonarqube-integration-test
 sonar.projectName=angular-sonarqube-integration-test
 
-# must be the same token to your local project
-sonar.login=your-project-token
+# must be the same username and password of your account
+# change login value with token and remove password if you want to use token
+sonar.login=admin
+sonar.password=admin
 ```
 
 ## Husky config
