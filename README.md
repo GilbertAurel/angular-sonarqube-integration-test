@@ -48,10 +48,12 @@ sonar.host.url=http://localhost:9000
 sonar.projectKey=angular-sonarqube-integration-test
 sonar.projectName=angular-sonarqube-integration-test
 
-# must be the same token to your local project
-sonar.login=your-project-token
+# must be the same username and password of your account
+# change login value with token and remove password if you want to use token
+sonar.login=admin
+sonar.password=admin
 ```
 
 ## Husky config
 
-Utilizing husky, this project encourages developer to only commit a clean code. It means the code has to be tested. The code should pass lint and karma test first before it can be commited.
+Utilizing husky, this project encourages developer to only commit a clean code. It means the code has to be tested. The code should pass lint and karma test first (also generating code coverage files) before it can be commited.
