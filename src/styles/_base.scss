@@ -7,8 +7,31 @@ $text-2: #999999;
 $background: #f6f6f6;
 $gray-button: #e5e5e5;
 $gray-section: #c4c4c4;
+$red-notif: #ef1515;
 
 //FONT SIZES
-$h1: 1.25rem;
-$h2: 1rem;
-$body: 1rem;
+$text-sm: 0.75rem;
+$text-md: 1rem;
+$text-lg: 1.25rem;
+
+//FONT WEIGHT
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+//BORDER RADIUS
+$border-radius-rounded-none: 0px;
+$border-radius-rounded-sm: 0.125rem;
+$border-radius-rounded: 0.25rem;
+$border-radius-rounded-md: 0.375rem;
+$border-radius-rounded-lg: 0.5rem;
+$border-radius-rounded-top: 0.25rem 0.25rem 0 0;
+$border-radius-rounded-bottom: 0 0 0.25rem 0.25rem;
+
+//BACKGROUND BANNER
+$background-banner: linear-gradient(
+  90deg,
+  $primary-1 0%,
+  $primary-1 54.01%,
+  rgba(74, 74, 74, 0.62) 100%
+);
