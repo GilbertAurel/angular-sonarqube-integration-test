@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'styles/_base.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: $background;
+}
+
+html,
+body {
+  height: 100%;
+}
